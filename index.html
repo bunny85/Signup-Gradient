@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+	<title>CSS-Forms</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="CSS/style.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class = "container effect">
+		<!--div class = "wrapper"-->
+		<div id = "title">
+			<h1>Sign Up</h1>
+			<p>Want to sign up fill out this form!</p>
+		</div>
+		<div>
+			<form action="/action_page.php" method="post" enctype= "multipart/form-data">
+				<label for="userfname">First Name</label><br>
+				<input type="text" name="firstname" id = "userfname" placeholder="Jaime"><br>
+				<label for="userlname">Last Name</label><br>
+				<input type="text" name="lastname" id = "userlname" placeholder="Peak"><br>
+				<label for="password">Password</label><br>
+				<input type="password" value="password" id = "password" autofocus="on"><br>
+				<input id = "accept" type = "radio" name = "accept" checked>
+				<label for="accept">I accept the terms of use</label><br>
+				<input type = "button" value="Sign Up"><br>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
